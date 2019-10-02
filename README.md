@@ -31,6 +31,8 @@ Just add this to your `tox.ini` file:
 requires = tox-envfile
 ```
 
+(tox will install the plugin automatically from PyPI, and use it)
+
 env File Format
 ---------------
 
