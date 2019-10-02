@@ -25,7 +25,7 @@ TODO:
 Usage
 -----
 
-Just add this to your `tox.ini` file:
+Just add this to the `[tox]` section of your `tox.ini` file:
 
 ```INI
 requires = tox-envfile
