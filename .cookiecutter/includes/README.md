@@ -1,18 +1,3 @@
-<a href="https://github.com/hypothesis/tox-envfile/actions/workflows/ci.yml?query=branch%3Amain"><img src="https://img.shields.io/github/workflow/status/hypothesis/tox-envfile/CI/main"></a>
-<a href="https://pypi.org/project/tox-envfile"><img src="https://img.shields.io/pypi/v/tox-envfile"></a>
-<a><img src="https://img.shields.io/badge/python-3.10 | 3.9 | 3.8-success"></a>
-<a href="https://github.com/hypothesis/tox-envfile/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-BSD--2--Clause-success"></a>
-<a href="https://github.com/hypothesis/cookiecutters/tree/main/pypackage"><img src="https://img.shields.io/badge/cookiecutter-pypackage-success"></a>
-<a href="https://black.readthedocs.io/en/stable/"><img src="https://img.shields.io/badge/code%20style-black-000000"></a>
-
-# tox-envfile
-
-Load env files in your tox envs.
-
-For installation instructions see [INSTALL.md](https://github.com/hypothesis/tox-envfile/blob/main/INSTALL.md).
-
-For how to set up a tox-envfile development environment see
-[HACKING.md](https://github.com/hypothesis/tox-envfile/blob/main/HACKING.md).
 
 tox-envfile reads environment variables from a file named `.devdata.env` in the
 same directory as your `tox.ini` file and adds them to the environment that tox
