@@ -12,7 +12,7 @@
     "copyright_holder": "Hypothesis",
     "public": "yes",
     "console_script": "no",
-    "__dependabot_interval": "monthly",
+    "dependabot_pip_interval": "monthly",
     "__entry_point": "tox-envfile",
     "__github_url": "https://github.com/hypothesis/tox-envfile",
     "__pypi_url": "https://pypi.org/project/tox-envfile"
