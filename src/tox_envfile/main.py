@@ -10,6 +10,6 @@ hookimpl = pluggy.HookimplMarker("tox")
 def tox_configure(config):
     envvars = dotenv.dotenv_values(os.path.join(config.toxinidir, ".devdata.env"))
 
-    for env in config.option.env:
+    for envconfig in config.envconfigs.values():
         for name, value in envvars.items():
-            config.envconfigs[env].setenv[name] = value
+            envconfig.setenv[name] = value
