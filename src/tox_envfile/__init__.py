@@ -1,1 +1,1 @@
-from tox_envfile.main import tox_configure
+from tox_envfile.plugin import tox_configure

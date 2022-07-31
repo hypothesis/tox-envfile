@@ -43,6 +43,9 @@ ignore = [
 branch = true
 parallel = true
 source = ["tox_envfile", "tests/unit"]
+omit = [
+    "*/tox_envfile/__main__.py",
+]
 
 [tool.coverage.paths]
 source = ["src", ".tox/*tests/lib/python*/site-packages"]
