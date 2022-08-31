@@ -135,4 +135,4 @@ score = "no"
 
 [tool.hdev]
 project_name = "tox-envfile"
-project_type = "package"
+project_type = "library"
