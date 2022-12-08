@@ -1,4 +1,3 @@
-
 tox-envfile reads environment variables from a file named `.devdata.env` in the
 same directory as your `tox.ini` file and adds them to the environment that tox
 runs your commands in.

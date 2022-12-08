@@ -69,7 +69,7 @@ Then to set up your development environment:
 
 ```terminal
 git clone https://github.com/hypothesis/tox-envfile.git
-cd tox_envfile
+cd tox-envfile
 make help
 ```
 
