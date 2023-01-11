@@ -1,7 +1,10 @@
 {
   "template": "https://github.com/hypothesis/cookiecutters",
   "directory": "pypackage",
-  "ignore": ["src/tox_envfile/core.py", "tests/unit/tox_envfile/core_test.py"],
+  "ignore": [
+    "src/tox_envfile/core.py",
+    "tests/unit/tox_envfile/core_test.py"
+  ],
   "extra_context": {
     "name": "tox-envfile",
     "package_name": "tox_envfile",
@@ -15,6 +18,7 @@
     "dependabot_pip_interval": "monthly",
     "__entry_point": "tox-envfile",
     "__github_url": "https://github.com/hypothesis/tox-envfile",
-    "__pypi_url": "https://pypi.org/project/tox-envfile"
+    "__pypi_url": "https://pypi.org/project/tox-envfile",
+    "__copyright_year": "2022"
   }
 }
