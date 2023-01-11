@@ -19,6 +19,7 @@
     "__entry_point": "tox-envfile",
     "__github_url": "https://github.com/hypothesis/tox-envfile",
     "__pypi_url": "https://pypi.org/project/tox-envfile",
-    "__copyright_year": "2022"
+    "__copyright_year": "2022",
+    "pypi": "yes"
   }
 }
