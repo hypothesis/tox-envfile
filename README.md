@@ -1,4 +1,4 @@
-<a href="https://github.com/hypothesis/tox-envfile/actions/workflows/ci.yml?query=branch%3Amain"><img src="https://img.shields.io/github/workflow/status/hypothesis/tox-envfile/CI/main"></a>
+<a href="https://github.com/hypothesis/tox-envfile/actions/workflows/ci.yml?query=branch%3Amain"><img src="https://img.shields.io/github/actions/workflow/status/hypothesis/tox-envfile/ci.yml?branch=main"></a>
 <a href="https://pypi.org/project/tox-envfile"><img src="https://img.shields.io/pypi/v/tox-envfile"></a>
 <a><img src="https://img.shields.io/badge/python-3.10 | 3.9 | 3.8 | 3.7-success"></a>
 <a href="https://github.com/hypothesis/tox-envfile/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-BSD--2--Clause-success"></a>
