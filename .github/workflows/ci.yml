@@ -22,7 +22,7 @@ jobs:
       - name: Install Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.11'
+          python-version: '3.12'
       - run: python -m pip install 'tox<4'
       - run: tox -e checkformatting
   Lint:
@@ -32,7 +32,7 @@ jobs:
       - name: Install Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.11'
+          python-version: '3.12'
       - run: python -m pip install 'tox<4'
       - run: tox -e lint
   Typecheck:
@@ -42,14 +42,14 @@ jobs:
       - name: Install Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.11'
+          python-version: '3.12'
       - run: python -m pip install 'tox<4'
       - run: tox -e typecheck
   Tests:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: ['3.11', '3.10', '3.9', '3.8']
+        python-version: ['3.12', '3.11', '3.10', '3.9', '3.8']
     name: Unit tests with Python ${{ matrix.python-version }}
     steps:
       - uses: actions/checkout@v3
@@ -74,7 +74,7 @@ jobs:
       - name: Install Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.11'
+          python-version: '3.12'
       - name: Download coverage files
         uses: actions/download-artifact@v3
         with:
@@ -85,7 +85,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: ['3.11', '3.10', '3.9', '3.8']
+        python-version: ['3.12', '3.11', '3.10', '3.9', '3.8']
     name: Functional tests with Python ${{ matrix.python-version }}
     steps:
       - uses: actions/checkout@v3
