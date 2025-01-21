@@ -21,8 +21,8 @@ dependencies = [
 Repository = "https://github.com/hypothesis/tox-envfile"
 Issues = "https://github.com/hypothesis/tox-envfile/issues"
 Changelog = "https://github.com/hypothesis/tox-envfile/releases"
-[tool.setuptools_scm]
 
+[tool.setuptools_scm]
 
 [project.entry-points.tox]
 tox-envfile = "tox_envfile"
