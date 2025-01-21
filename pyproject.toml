@@ -2,7 +2,30 @@
 requires = ["setuptools>=45", "setuptools_scm[toml]>=6.2"]
 build-backend = "setuptools.build_meta"
 
+[project]
+dynamic = ["version"]
+name = "tox-envfile"
+description = "Load env files in your tox envs."
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: BSD License",
+    "Intended Audience :: Developers",
+]
+requires-python = ">=3.9"
+dependencies = [
+    "python-dotenv",
+]
+
+[project.urls]
+Repository = "https://github.com/hypothesis/tox-envfile"
+Issues = "https://github.com/hypothesis/tox-envfile/issues"
+Changelog = "https://github.com/hypothesis/tox-envfile/releases"
 [tool.setuptools_scm]
+
+
+[project.entry-points.tox]
+tox-envfile = "tox_envfile"
 
 [tool.pytest.ini_options]
 addopts = "-q"
